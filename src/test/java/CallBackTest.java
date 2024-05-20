@@ -1,8 +1,13 @@
+
+import org.openqa.selenium.WebDriver;
+
+
+
 public class CallBackTest {
     private WebDriver driver;
 
     @BeforeEach
-    void setUp {driver = new ChromeDriver();}
+    void setUp() { driver = new ChromeDriver();}
 
     @AfterEach
     void tearDown(){
@@ -11,7 +16,9 @@ public class CallBackTest {
     }
 
     @Test
-    void shouldTest(){
+    void shouldTestSel(){
         throw new UnsupportedOperationException();
+
     }
+
 }
